@@ -1,0 +1,30 @@
+IN A PINCH — GITHUB UPLOAD FOLDER
+when you gotta go, you gotta go
+
+THIS IS THE FOLDER TO UPLOAD.
+index.html is directly beside this file.
+
+1. Extract IN_A_PINCH_GITHUB_UPLOAD.zip.
+2. Open the IN_A_PINCH_GITHUB_UPLOAD folder.
+3. In your GitHub repository, choose Add file > Upload files.
+4. Upload the CONTENTS of this folder, keeping subfolders intact.
+5. Commit the files.
+
+Your repository's main file listing should show index.html immediately.
+Do not upload only the ZIP or only index.html.
+Include hidden files such as .nojekyll and the .github folder.
+
+TO PUBLISH THE STATIC MAP WITH GITHUB PAGES:
+Settings > Pages > Deploy from a branch > main > /(root) > Save.
+Choose your actual default branch if it is not called main.
+
+The map, videos, search, filters, and saved places work on GitHub Pages.
+Shared ratings require the included backend; Pages cannot run it.
+README.md explains how to deploy the full app with shared ratings.
+
+TO PREVIEW THE STATIC MAP LOCALLY:
+Open a terminal in this folder, run:
+python3 -m http.server 8080
+Then open http://localhost:8080
+
+All styling, scripts, map data, and video files are included.
